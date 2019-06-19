@@ -10,5 +10,9 @@
     top: 200px;
 }
 
-#progressBar{
+.container{
+    width: 30%;
+    position: absolute;
+    right: 280px;
+    top: 260px;
 }
