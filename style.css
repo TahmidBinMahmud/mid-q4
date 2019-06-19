@@ -11,8 +11,38 @@
 }
 
 .container{
+    float:right;
     width: 30%;
     position: absolute;
     right: 280px;
     top: 260px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button4 {background-color: #e7e7e7} /* Gray */ 
+
+  #temp1{
+      float: right;
+      position: absolute;
+      right: 870px;
+      top: 247px;
+  }
+
+  #temp2{
+    float: right;
+    position: absolute;
+    right: 210px;
+    top: 247px;
 }

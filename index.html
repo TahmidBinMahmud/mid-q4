@@ -17,17 +17,17 @@
         <p>Interval (milliseconds)
             <input type="number" id="num3" placeholder="milliseconds">
         </p>
-        <input type="button" id="button" value="Start">
+        <button id="btn" class="button button4" onclick="move(), submitButtonStyle(this)">Start Cooker</button>
     </div>
+    <p id="temp1"></p>
     <div class="container">
       <div class="w3-light-grey">
         <div id="myBar" class="w3-container w3-green" style="height:24px;width:20%"></div>
           </div>
     
-          <p id="demo">20%</p>
-    
-        <button class="w3-button w3-green" onclick="move()">Click Me</button> 
+          <p id="demo">0%</p>
       </div>
+    <p id="temp2"></p>
     </div>
       <!-- Your site content here -->
       <script src="jquery-3.3.1.min.js"></script>
